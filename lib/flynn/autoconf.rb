@@ -2,8 +2,8 @@ require "flynn/autoconf/version"
 
 module Flynn
   module AutoConf
-    def self.setup_database
-
+    def self.setup_postgres(key: 'DATABASE_URL')
+      setup_database_url(ENV, key: key)
     end
 
     def self.setup_database_url(env, key: 'DATABASE_URL')
