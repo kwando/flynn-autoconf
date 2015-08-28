@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['hannes.nevalainen@me.com']
 
   spec.summary       = %q{Setup DATABASE_URL from ENV vars that flynn provides.}
+  spec.homepage      = 'https://github.com/kwando/flynn-autoconf'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
